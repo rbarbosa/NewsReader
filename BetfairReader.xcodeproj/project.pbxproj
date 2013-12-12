@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44BCAA9185A2B2D005C7704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BCAA8185A2B2D005C7704 /* Foundation.framework */; };
+		F44BCAAB185A2B2D005C7704 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BCAAA185A2B2D005C7704 /* CoreGraphics.framework */; };
+		F44BCAAD185A2B2D005C7704 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BCAAC185A2B2D005C7704 /* UIKit.framework */; };
+		F44BCAB3185A2B2D005C7704 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F44BCAB1185A2B2D005C7704 /* InfoPlist.strings */; };
+		F44BCAB5185A2B2D005C7704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BCAB4185A2B2D005C7704 /* main.m */; };
+		F44BCAB9185A2B2D005C7704 /* BFRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BCAB8185A2B2D005C7704 /* BFRAppDelegate.m */; };
+		F44BCABB185A2B2D005C7704 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44BCABA185A2B2D005C7704 /* Images.xcassets */; };
+		F44BCAC2185A2B2D005C7704 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BCAC1185A2B2D005C7704 /* XCTest.framework */; };
+		F44BCAC3185A2B2D005C7704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BCAA8185A2B2D005C7704 /* Foundation.framework */; };
+		F44BCAC4185A2B2D005C7704 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44BCAAC185A2B2D005C7704 /* UIKit.framework */; };
+		F44BCACC185A2B2D005C7704 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F44BCACA185A2B2D005C7704 /* InfoPlist.strings */; };
+		F44BCACE185A2B2D005C7704 /* BetfairReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BCACD185A2B2D005C7704 /* BetfairReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44BCAC5185A2B2D005C7704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44BCA9D185A2B2C005C7704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44BCAA4185A2B2C005C7704;
+			remoteInfo = BetfairReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F44BCAA5185A2B2D005C7704 /* BetfairReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetfairReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44BCAA8185A2B2D005C7704 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F44BCAAA185A2B2D005C7704 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F44BCAAC185A2B2D005C7704 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F44BCAB0185A2B2D005C7704 /* BetfairReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetfairReader-Info.plist"; sourceTree = "<group>"; };
+		F44BCAB2185A2B2D005C7704 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F44BCAB4185A2B2D005C7704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F44BCAB6185A2B2D005C7704 /* BetfairReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetfairReader-Prefix.pch"; sourceTree = "<group>"; };
+		F44BCAB7185A2B2D005C7704 /* BFRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFRAppDelegate.h; sourceTree = "<group>"; };
+		F44BCAB8185A2B2D005C7704 /* BFRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFRAppDelegate.m; sourceTree = "<group>"; };
+		F44BCABA185A2B2D005C7704 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F44BCAC0185A2B2D005C7704 /* BetfairReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetfairReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44BCAC1185A2B2D005C7704 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F44BCAC9185A2B2D005C7704 /* BetfairReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetfairReaderTests-Info.plist"; sourceTree = "<group>"; };
+		F44BCACB185A2B2D005C7704 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F44BCACD185A2B2D005C7704 /* BetfairReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetfairReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44BCAA2185A2B2C005C7704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44BCAAB185A2B2D005C7704 /* CoreGraphics.framework in Frameworks */,
+				F44BCAAD185A2B2D005C7704 /* UIKit.framework in Frameworks */,
+				F44BCAA9185A2B2D005C7704 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44BCABD185A2B2D005C7704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44BCAC2185A2B2D005C7704 /* XCTest.framework in Frameworks */,
+				F44BCAC4185A2B2D005C7704 /* UIKit.framework in Frameworks */,
+				F44BCAC3185A2B2D005C7704 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F44BCA9C185A2B2C005C7704 = {
+			isa = PBXGroup;
+			children = (
+				F44BCAAE185A2B2D005C7704 /* BetfairReader */,
+				F44BCAC7185A2B2D005C7704 /* BetfairReaderTests */,
+				F44BCAA7185A2B2D005C7704 /* Frameworks */,
+				F44BCAA6185A2B2D005C7704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44BCAA6185A2B2D005C7704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44BCAA5185A2B2D005C7704 /* BetfairReader.app */,
+				F44BCAC0185A2B2D005C7704 /* BetfairReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44BCAA7185A2B2D005C7704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F44BCAA8185A2B2D005C7704 /* Foundation.framework */,
+				F44BCAAA185A2B2D005C7704 /* CoreGraphics.framework */,
+				F44BCAAC185A2B2D005C7704 /* UIKit.framework */,
+				F44BCAC1185A2B2D005C7704 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F44BCAAE185A2B2D005C7704 /* BetfairReader */ = {
+			isa = PBXGroup;
+			children = (
+				F44BCAB7185A2B2D005C7704 /* BFRAppDelegate.h */,
+				F44BCAB8185A2B2D005C7704 /* BFRAppDelegate.m */,
+				F44BCABA185A2B2D005C7704 /* Images.xcassets */,
+				F44BCAAF185A2B2D005C7704 /* Supporting Files */,
+			);
+			path = BetfairReader;
+			sourceTree = "<group>";
+		};
+		F44BCAAF185A2B2D005C7704 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F44BCAB0185A2B2D005C7704 /* BetfairReader-Info.plist */,
+				F44BCAB1185A2B2D005C7704 /* InfoPlist.strings */,
+				F44BCAB4185A2B2D005C7704 /* main.m */,
+				F44BCAB6185A2B2D005C7704 /* BetfairReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F44BCAC7185A2B2D005C7704 /* BetfairReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44BCACD185A2B2D005C7704 /* BetfairReaderTests.m */,
+				F44BCAC8185A2B2D005C7704 /* Supporting Files */,
+			);
+			path = BetfairReaderTests;
+			sourceTree = "<group>";
+		};
+		F44BCAC8185A2B2D005C7704 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F44BCAC9185A2B2D005C7704 /* BetfairReaderTests-Info.plist */,
+				F44BCACA185A2B2D005C7704 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44BCAA4185A2B2C005C7704 /* BetfairReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44BCAD1185A2B2D005C7704 /* Build configuration list for PBXNativeTarget "BetfairReader" */;
+			buildPhases = (
+				F44BCAA1185A2B2C005C7704 /* Sources */,
+				F44BCAA2185A2B2C005C7704 /* Frameworks */,
+				F44BCAA3185A2B2C005C7704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetfairReader;
+			productName = BetfairReader;
+			productReference = F44BCAA5185A2B2D005C7704 /* BetfairReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44BCABF185A2B2D005C7704 /* BetfairReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44BCAD4185A2B2D005C7704 /* Build configuration list for PBXNativeTarget "BetfairReaderTests" */;
+			buildPhases = (
+				F44BCABC185A2B2D005C7704 /* Sources */,
+				F44BCABD185A2B2D005C7704 /* Frameworks */,
+				F44BCABE185A2B2D005C7704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44BCAC6185A2B2D005C7704 /* PBXTargetDependency */,
+			);
+			name = BetfairReaderTests;
+			productName = BetfairReaderTests;
+			productReference = F44BCAC0185A2B2D005C7704 /* BetfairReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44BCA9D185A2B2C005C7704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BFR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rui Barbosa";
+				TargetAttributes = {
+					F44BCABF185A2B2D005C7704 = {
+						TestTargetID = F44BCAA4185A2B2C005C7704;
+					};
+				};
+			};
+			buildConfigurationList = F44BCAA0185A2B2C005C7704 /* Build configuration list for PBXProject "BetfairReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F44BCA9C185A2B2C005C7704;
+			productRefGroup = F44BCAA6185A2B2D005C7704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44BCAA4185A2B2C005C7704 /* BetfairReader */,
+				F44BCABF185A2B2D005C7704 /* BetfairReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44BCAA3185A2B2C005C7704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44BCAB3185A2B2D005C7704 /* InfoPlist.strings in Resources */,
+				F44BCABB185A2B2D005C7704 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44BCABE185A2B2D005C7704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44BCACC185A2B2D005C7704 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44BCAA1185A2B2C005C7704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44BCAB5185A2B2D005C7704 /* main.m in Sources */,
+				F44BCAB9185A2B2D005C7704 /* BFRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44BCABC185A2B2D005C7704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44BCACE185A2B2D005C7704 /* BetfairReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F44BCAC6185A2B2D005C7704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44BCAA4185A2B2C005C7704 /* BetfairReader */;
+			targetProxy = F44BCAC5185A2B2D005C7704 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F44BCAB1185A2B2D005C7704 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44BCAB2185A2B2D005C7704 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F44BCACA185A2B2D005C7704 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44BCACB185A2B2D005C7704 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44BCACF185A2B2D005C7704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F44BCAD0185A2B2D005C7704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44BCAD2185A2B2D005C7704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetfairReader/BetfairReader-Prefix.pch";
+				INFOPLIST_FILE = "BetfairReader/BetfairReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F44BCAD3185A2B2D005C7704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetfairReader/BetfairReader-Prefix.pch";
+				INFOPLIST_FILE = "BetfairReader/BetfairReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F44BCAD5185A2B2D005C7704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BetfairReader.app/BetfairReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetfairReader/BetfairReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BetfairReaderTests/BetfairReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F44BCAD6185A2B2D005C7704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BetfairReader.app/BetfairReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetfairReader/BetfairReader-Prefix.pch";
+				INFOPLIST_FILE = "BetfairReaderTests/BetfairReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44BCAA0185A2B2C005C7704 /* Build configuration list for PBXProject "BetfairReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44BCACF185A2B2D005C7704 /* Debug */,
+				F44BCAD0185A2B2D005C7704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44BCAD1185A2B2D005C7704 /* Build configuration list for PBXNativeTarget "BetfairReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44BCAD2185A2B2D005C7704 /* Debug */,
+				F44BCAD3185A2B2D005C7704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F44BCAD4185A2B2D005C7704 /* Build configuration list for PBXNativeTarget "BetfairReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44BCAD5185A2B2D005C7704 /* Debug */,
+				F44BCAD6185A2B2D005C7704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44BCA9D185A2B2C005C7704 /* Project object */;
+}
